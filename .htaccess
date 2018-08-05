@@ -1,0 +1,19 @@
+# HTTPS forced by SG-Optimizer
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+</IfModule>
+# END HTTPS
+# Permanent URL redirect
+Redirect 301 /how-to-make-chocolate-covered-coffee-beans/ https://ineedcoffee.com/how-to-make-chocolate-covered-coffee-beans/
+Redirect 301 /how-to-make-coffee-cookies-in-the-shape-of-coffee-beans/ https://ineedcoffee.com/how-to-make-coffee-cookies-in-the-shape-of-coffee-beans/
+Redirect 301 /cold-brew-coffee-cupcakes-with-mocha-buttercream-frosting-recipe/ https://ineedcoffee.com/cold-brew-coffee-cupcakes-with-mocha-buttercream-frosting-recipe/
+Redirect 301 /coffee-custard-sauce-recipe/ https://ineedcoffee.com/coffee-custard-sauce-recipe/
+Redirect 301 /coffee-beef-stew-recipe/ https://ineedcoffee.com/coffee-beef-stew-recipe/
+Redirect 301 /duck-breasts-with-coffee-marinade-roasted-or-grilled/ https://ineedcoffee.com/duck-breasts-with-coffee-marinade-roasted-or-grilled/
+Redirect 301 /coffee-chili-recipe-vegetarian/ https://ineedcoffee.com/coffee-chili-recipe-vegetarian/
+Redirect 301 /espresso-carrot-cake-recipe/ https://ineedcoffee.com/espresso-carrot-cake-recipe/
+Redirect 301 /easy-rum-ball-recipe-with-espresso/ https://ineedcoffee.com/easy-rum-ball-recipe-with-espresso/
+Redirect 301 /coconut-milk-coffee-ice-cream-recipe/ https://ineedcoffee.com/coconut-milk-coffee-ice-cream-recipe/
+Redirect 301 /homemade-coffee-ice-cream-recipe/ https://ineedcoffee.com/homemade-coffee-ice-cream-recipe/
